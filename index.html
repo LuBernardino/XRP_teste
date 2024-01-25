@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./toast/toast.css" />
+
+    <title>XRP Frotas</title>
+  </head>
+
+  <body>
+    <img class="img-left" src="./assets/images/sistem.png" alt="imagem sistema">
+    <main>
+      <img src="./assets/images/XRP_blue_new_logo_white.png" alt="logo image" />
+      <h1>Bem-vindo de volta</h1>
+      <p>
+        Para se manter conectado conosco, faça login com as informações
+        necessárias.
+      </p>
+
+      <form action="#">
+        <div class="user">
+          <label for=""
+            ><img src="./assets/icons/person.png" alt="person icon"
+          /></label>
+          <input type="text" id="email" placeholder="Utilizador" />
+        </div>
+
+        <div class="container" id="client-container">
+          <template id="client-template">
+            <li><img src="./assets/images/" alt="" /></li>
+          </template>
+          <div class="arrow-left">
+            <img src="./assets/icons/arrow-left.png" alt="" />
+          </div>
+          <ul class="client-list"></ul>
+          <div class="arrow-right active">
+            <img src="./assets/icons/arrow-right.png" alt="" />
+          </div>
+        </div>
+
+        <div class="password">
+          <label for=""
+            ><img src="./assets/icons/lock.png" alt="lock icon"
+          /></label>
+          <input type="password" id="password" placeholder="Senha" />
+        </div>
+
+        <button type="button">Login</button>
+      </form>
+    </main>
+
+    <!-- toast message -->
+    <div class="toast">
+      <div class="toast-content">
+        <img class="check" />
+
+        <div class="message">
+          <span class="text title"></span>
+          <span class="text info"></span>
+        </div>
+      </div>
+      <div class="progress"></div>
+    </div>
+
+  </body>
+  <script src="./toast/toast.js"></script>
+  <script src="carousel.js"></script>
+  <script src="main.js"></script>
+</html>
