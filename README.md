@@ -15,6 +15,8 @@ SCSS is a CSS superset that adds extra features such as variables, mixins, inher
 
 ### [Design Figma](https://www.figma.com/file/Wjec0xCaEyyobIn4DW9GR9/XRP_teste?type=design&node-id=0%3A1&mode=design&t=mG3jdSK3gjO0tWFq-1) 
 
+![Descrição da imagem](assets/images/Desktop(loginpage).png)
+
 The interface design was created using the Figma tool. [Click here](https://www.figma.com/file/Wjec0xCaEyyobIn4DW9GR9/XRP_teste?type=design&node-id=0%3A1&mode=design&t=mG3jdSK3gjO0tWFq-1) to view the prototype.
 
 ### Execution Instructions
